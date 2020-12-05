@@ -30,8 +30,8 @@ function setup() {
   rope1=new rope(bob1.body,roof1.body,-bob1.diameter*2,0)
   rope4=new rope(bob4.body,roof1.body,-bob1.diameter*2,0)
   rope5=new rope(bob5.body,roof1.body,-bob1.diameter*2,0)
-  ground=new roof(270,655,400,50)
-  ground.visibile=false
+ // ground=new roof(270,655,400,50)
+  //ground.visibile=false
   Engine.run(engine);
   
 }
@@ -41,7 +41,7 @@ function draw() {
   rectMode(CENTER);
   background("white");
   Engine.update(engine)
-  ground.display();
+  //ground.display();
   bob1.display();
   bob2.display();
   bob3.display();
