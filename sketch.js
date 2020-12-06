@@ -25,11 +25,12 @@ function setup() {
 	bob4=new Bob(330,600,30)
 	bob5=new Bob(390,600,30)
 	roof1=new roof(270,200,400,50)
-  rope3=new rope(bob3.body,roof1.body,-bob1.diameter*2,0)
-  rope2=new rope(bob2.body,roof1.body,-bob1.diameter*2,0)
-  rope1=new rope(bob1.body,roof1.body,-bob1.diameter*2,0)
-  rope4=new rope(bob4.body,roof1.body,-bob1.diameter*2,0)
-  rope5=new rope(bob5.body,roof1.body,-bob1.diameter*2,0)
+  rope3=new rope(bob3.body,roof1.body,-200,0)
+  rope2=new rope(bob2.body,roof1.body,-100,0)
+  rope1=new rope(bob1.body,roof1.body,0,0)
+  rope4=new rope(bob4.body,roof1.body,100,0)
+  rope5=new rope(bob5.body,roof1.body,200,0)
+	
  // ground=new roof(270,655,400,50)
   //ground.visibile=false
   Engine.run(engine);
